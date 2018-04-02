@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Orator Std";
+    src: url(oratorstd.woff);
+}
+
+body        {overflow: hidden; background-image: url("IMAGES/BACKGROUND.jpg");background-attachment: fixed;}
+
+li+li       { border-left: 1px solid #000000 }
+
+ul li a     {font-family: "Orator Std";font-size: 14px; color: #bbb;}
+
+.CLR01      {color:#131313!important;background-color:#131313!important}
+
+.CLR01:Hover{background-color:#131313!important;}
+
+.CLR02      {color:#bbbbbb!important;background-color:#131313!important}
+
+.WRAP01     {position: relative; left: 50%; transform: translate(-50%);}
+
+.WRAP02     {position: relative; left: 50%; transform: translate(-50%);width: 900px; height: auto; background: rgba(150,150,150,.4); padding-bottom: 30px;}
+
+.WRAP03     {position: relative; left: 50%; transform: translate(-50%);width: 820px; background: rgba(120,120,120,.4);padding-top: 30px; top: 30px;}
+
+.WRAP04     {position: relative; left: 50%; transform: translate(-50%);width: 640px; height: auto; background: rgba(150,150,150,.4); padding-bottom: 30px;}
+
+.WRAP05     {position: relative; left: 50%; transform: translate(-50%);width: 560px; background: rgba(120,120,120,.4);padding-top: 30px; top: 30px;}
+
+.WRAP06     {position: relative; left: 50%; transform: translate(-50%);width: 497px; height: auto; background: rgba(150,150,150,.4); padding-bottom: 30px;}
+
+.WRAP07     {position: relative; left: 50%; transform: translate(-50%);width: 417px; background: rgba(120,120,120,.4);padding-top: 30px; top: 30px;}
+
+.NAV01      {padding-bottom: 10px!important; position: fixed; height: 12%;width: 100%; top: 0%; z-index: 2; color: white;}
+
+.POSNAV     {position: absolute; top: 12%;width: 100%;z-index: 1;}
+
+.SPACER     {height: 120px;}
+
+@media only screen and (max-width: 600px) {.POSNAV {display: none;}.SPACER {height: 80px;}}
+
+.BRDRA      {background-color:#535353!important;}
+
+.BRDRB:Hover{background-color:#bbbbbb!important;}
+
+.IMPT       {display:table-cell; width:100%}
+
+.PRBL       {background-image: url("IMAGES/BLOCK.png");}
+
+.HDRS        {font-family: "Orator Std";letter-spacing: 3px;color: #313131;}
+
+.PRGS       {font-family: "Verdana";letter-spacing: 2px;color: #343434;}
+
+.FTRS       {font-family: "Verdana";letter-spacing: 2px;color: #5a5a5a;}
+
+.INPT       {display:table-cell; width:100%!important;}
+
+#ARROWBOT { cursor: pointer; cursor: hand; }
+
+#ARROWTOP { cursor: pointer; cursor: hand; }
